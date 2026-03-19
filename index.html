@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Watch premium Videos</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#0b0b0b;
+color:white;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:15px;
+}
+
+.title{
+font-size:28px;
+margin:20px 0;
+text-align:center;
+}
+
+/* VIDEO */
+
+.video-wrapper{
+position:relative;
+width:100%;
+padding-bottom:56.25%;
+height:0;
+overflow:hidden;
+border-radius:10px;
+box-shadow:0 0 30px rgba(0,0,0,0.9);
+background:black;
+}
+
+.video-wrapper iframe{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+border:none;
+}
+
+/* BUTTONS */
+
+.buttons{
+margin-top:20px;
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.btn{
+padding:12px 22px;
+border-radius:6px;
+font-size:15px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+.telegram{
+background:#0088cc;
+}
+
+.more{
+background:#e50914;
+}
+
+/* ADS */
+
+.ad-box{
+text-align:center;
+margin:20px 0;
+}
+
+/* TELEGRAM POPUP */
+
+#telegramPopup{
+position:fixed;
+bottom:20px;
+left:50%;
+transform:translateX(-50%);
+background:#111;
+padding:20px;
+border-radius:12px;
+box-shadow:0 0 20px rgba(0,0,0,0.9);
+z-index:9999;
+width:300px;
+text-align:center;
+display:none;
+}
+
+.popup-btn{
+display:inline-block;
+margin-top:10px;
+padding:10px 18px;
+border-radius:6px;
+text-decoration:none;
+color:white;
+}
+
+.join-btn{
+background:#0088cc;
+}
+
+.close-btn{
+background:#444;
+margin-left:10px;
+cursor:pointer;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- POPUNDER AD -->
+<script src="https://pl28905490.effectivegatecpm.com/cf/37/15/cf37151349f484321bc3e4dc16646d8d.js"></script>
+
+<!-- SOCIAL BAR AD -->
+<script src="https://pl28905520.effectivegatecpm.com/05/f3/48/05f3482683d39f522562f0f825c0bed8.js"></script>
+
+
+<div class="container">
+
+<h1 class="title">🔥 Viral Video</h1>
+
+
+<!-- TOP BANNER AD -->
+
+<div class="ad-box">
+
+<script>
+  atOptions = {
+    'key' : 'e40b838bd95142ca148f7a2095d26d56',
+    'format' : 'iframe',
+    'height' : 60,
+    'width' : 468,
+    'params' : {}
+  };
+</script>
+<script src="https://www.highperformanceformat.com/e40b838bd95142ca148f7a2095d26d56/invoke.js"></script>
+
+</div>
+
+
+
+<!-- VIDEO PLAYER -->
+
+<div class="video-wrapper">
+<div id="player"></div>
+</div>
+
+
+
+<!-- MOBILE BANNER -->
+
+<div class="ad-box">
+
+<script>
+  atOptions = {
+    'key' : '577194eeadf9123b54a94b332c7a55e1',
+    'format' : 'iframe',
+    'height' : 50,
+    'width' : 320,
+    'params' : {}
+  };
+</script>
+<script src="https://www.highperformanceformat.com/577194eeadf9123b54a94b332c7a55e1/invoke.js"></script>
+
+</div>
+
+
+
+<!-- BUTTONS -->
+
+<div class="buttons">
+
+<a class="btn telegram" href="https://t.me/viral_contentxpro" target="_blank">
+Watch on Telegram
+</a>
+
+<a class="btn more" href="https://wistahub.blogspot.com/?m=1">
+Watch More Videos
+</a>
+
+</div>
+
+</div>
+
+
+<script>
+
+/* VIDEO LINK */
+
+let videoLink = "https://xhamster45.desi/videos/brutal-x-eliza-ibarra-fucking-future-stepdaughter-13332383?utm_source=ext_shared&utm_medium=referral&utm_campaign=link";
+
+let embedLink = videoLink;
+
+if(videoLink.includes("youtube.com/watch?v=")){
+let id = videoLink.split("v=")[1].split("&")[0];
+embedLink="https://www.youtube.com/embed/"+id+"?rel=0&modestbranding=1";
+}
+
+if(videoLink.includes("youtu.be/")){
+let id = videoLink.split("youtu.be/")[1];
+embedLink="https://www.youtube.com/embed/"+id+"?rel=0&modestbranding=1";
+}
+
+document.getElementById("player").innerHTML =
+`<iframe src="${embedLink}" allowfullscreen allow="autoplay; fullscreen"></iframe>`;
+
+</script>
+
+
+
+<!-- TELEGRAM POPUP -->
+
+<div id="telegramPopup">
+
+<h3>Join our Telegram 🔥</h3>
+
+<p>Get more viral videos instantly.</p>
+
+<a class="popup-btn join-btn" href="https://t.me/viral_contentxpro" target="_blank">
+Join Now
+</a>
+
+<span class="popup-btn close-btn" onclick="closePopup()">
+Do Not Disturb
+</span>
+
+</div>
+
+
+
+<script>
+
+setTimeout(function(){
+
+if(!sessionStorage.getItem("tgClosed")){
+document.getElementById("telegramPopup").style.display="block";
+}
+
+},5000);
+
+function closePopup(){
+document.getElementById("telegramPopup").style.display="none";
+sessionStorage.setItem("tgClosed","true");
+}
+
+</script>
+
+
+</body>
+</html>
