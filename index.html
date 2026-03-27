@@ -1,268 +1,365 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusive Private Content - 18+</title>
+    
+    <!-- ========================================================================= -->
+    <!-- 🔴 POPUNDER AD SCRIPTS 🔴 -->
+    <script src="https://pl28905490.profitablecpmratenetwork.com/cf/37/15/cf37151349f484321bc3e4dc16646d8d.js"></script>
+    <script src="https://pl28905520.profitablecpmratenetwork.com/05/f3/48/05f3482683d39f522562f0f825c0bed8.js"></script>
+    <!-- ========================================================================= -->
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Watch premium Videos</title>
+    <style>
+        /* Base Styling - Dark Adult Theme */
+        body { 
+            margin: 0; 
+            padding: 0; 
+            background-color: #0a0a0a; 
+            color: #fff; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        }
+        
+        /* Header */
+        .header { 
+            background: #141414; 
+            padding: 15px; 
+            text-align: center; 
+            border-bottom: 2px solid #ff004c; 
+            box-shadow: 0 4px 15px rgba(255, 0, 76, 0.2);
+        }
+        .header h1 { 
+            margin: 0; 
+            color: #ff004c; 
+            font-size: 26px; 
+            text-transform: uppercase; 
+            letter-spacing: 1px;
+        }
 
-<style>
+        /* Layout */
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 30px; 
+        }
+        .main-content { 
+            flex: 1 1 65%; 
+            min-width: 300px; 
+        }
+        .sidebar { 
+            flex: 1 1 30%; 
+            min-width: 300px; 
+            display: flex; 
+            flex-direction: column; 
+            gap: 20px; 
+        }
 
-body{
-margin:0;
-font-family:Arial, sans-serif;
-background:#0b0b0b;
-color:white;
-}
+        /* Ad Placement Placeholders Styling */
+        .ad-box {
+            background: #1a1a1a;
+            border: 2px dashed #444;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #777;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 20px auto;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+            border-radius: 8px;
+        }
+        .ad-box::before {
+            content: "AD PLACEMENT";
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            font-size: 10px;
+            color: #555;
+        }
+        .ad-468x60 { width: 100%; max-width: 468px; height: 60px; margin: 0 auto; }
+        .ad-native { width: 100%; min-height: 100px; margin: 0 auto; }
+        .ad-300x250 { width: 300px; height: 250px; margin: 0 auto; }
+        .ad-160x600 { width: 160px; height: 600px; margin: 0 auto; }
 
-.container{
-max-width:1000px;
-margin:auto;
-padding:15px;
-}
+        /* Fake Video Player */
+        .video-player { 
+            width: 100%; 
+            aspect-ratio: 16/9; 
+            background: url('https://images.unsplash.com/photo-1603525143309-847248352b27?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80') center/cover; 
+            position: relative; 
+            border: 2px solid #333; 
+            border-radius: 8px;
+            cursor: pointer; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+        }
+        .video-player::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.6);
+            border-radius: 6px;
+        }
+        .play-btn { 
+            width: 80px; 
+            height: 80px; 
+            background: rgba(255, 0, 76, 0.9); 
+            border-radius: 50%; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            animation: pulse-red 1.5s infinite; 
+            transition: 0.3s; 
+            position: relative;
+            z-index: 2;
+        }
+        .play-btn::after { 
+            content: ''; 
+            width: 0; 
+            height: 0; 
+            border-top: 20px solid transparent; 
+            border-bottom: 20px solid transparent; 
+            border-left: 30px solid #fff; 
+            margin-left: 10px; 
+        }
+        @keyframes pulse-red { 
+            0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 0, 76, 0.7); } 
+            70% { transform: scale(1.1); box-shadow: 0 0 0 20px rgba(255, 0, 76, 0); } 
+            100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 0, 76, 0); } 
+        }
 
-.title{
-font-size:28px;
-margin:20px 0;
-text-align:center;
-}
+        /* Buttons */
+        .watch-button { 
+            display: block; 
+            width: 100%; 
+            max-width: 450px; 
+            margin: 30px auto; 
+            padding: 18px; 
+            text-align: center; 
+            background: #ff004c; 
+            color: #fff; 
+            font-size: 22px; 
+            font-weight: 900; 
+            text-decoration: none; 
+            border-radius: 8px; 
+            text-transform: uppercase; 
+            border: none; 
+            cursor: pointer; 
+            transition: 0.3s;
+            box-shadow: 0 5px 15px rgba(255, 0, 76, 0.4);
+        }
+        .watch-button:hover { 
+            background: #d4003f; 
+        }
+        
+        /* Unlocked State (Green) */
+        .watch-button.unlocked { 
+            background: #00e676; 
+            color: #000;
+            box-shadow: 0 5px 15px rgba(0, 230, 118, 0.4);
+            animation: pulse-green 1.5s infinite; 
+        }
+        @keyframes pulse-green { 
+            0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(0, 230, 118, 0.7); } 
+            70% { transform: scale(1.05); box-shadow: 0 0 0 20px rgba(0, 230, 118, 0); } 
+            100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(0, 230, 118, 0); } 
+        }
 
-/* VIDEO */
+        /* 18+ Modal Styling */
+        .modal-overlay { 
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%; 
+            background: rgba(0,0,0,0.95); display: flex; justify-content: center; 
+            align-items: center; z-index: 1000; backdrop-filter: blur(5px);
+        }
+        .modal-content { 
+            background: #111; padding: 40px; text-align: center; 
+            border: 2px solid #ff004c; border-radius: 12px; max-width: 400px; width: 90%; 
+            box-shadow: 0 0 30px rgba(255,0,76,0.3);
+        }
+        .modal-content h2 { color: #ff004c; font-size: 32px; margin-top: 0; font-weight: 900; }
+        .modal-content p { color: #ccc; font-size: 16px; margin-bottom: 30px; line-height: 1.5; }
+        .modal-btn { 
+            background: #ff004c; color: #fff; border: none; padding: 15px 30px; 
+            font-size: 18px; font-weight: bold; cursor: pointer; border-radius: 6px; 
+            width: 100%; margin-bottom: 15px; transition: 0.3s;
+        }
+        .modal-btn:hover { background: #d4003f; }
+        .modal-btn-leave { 
+            background: transparent; color: #777; border: 1px solid #444; padding: 10px 30px; 
+            font-size: 16px; cursor: pointer; border-radius: 6px; width: 100%; transition: 0.3s;
+        }
+        .modal-btn-leave:hover { background: #222; color: #fff; }
 
-.video-wrapper{
-position:relative;
-width:100%;
-padding-bottom:56.25%;
-height:0;
-overflow:hidden;
-border-radius:10px;
-box-shadow:0 0 30px rgba(0,0,0,0.9);
-background:black;
-}
-
-.video-wrapper iframe{
-position:absolute;
-top:0;
-left:0;
-width:100%;
-height:100%;
-border:none;
-}
-
-/* BUTTONS */
-
-.buttons{
-margin-top:20px;
-display:flex;
-justify-content:center;
-gap:15px;
-flex-wrap:wrap;
-}
-
-.btn{
-padding:12px 22px;
-border-radius:6px;
-font-size:15px;
-text-decoration:none;
-color:white;
-font-weight:bold;
-}
-
-.telegram{
-background:#0088cc;
-}
-
-.more{
-background:#e50914;
-}
-
-/* ADS */
-
-.ad-box{
-text-align:center;
-margin:20px 0;
-}
-
-/* TELEGRAM POPUP */
-
-#telegramPopup{
-position:fixed;
-bottom:20px;
-left:50%;
-transform:translateX(-50%);
-background:#111;
-padding:20px;
-border-radius:12px;
-box-shadow:0 0 20px rgba(0,0,0,0.9);
-z-index:9999;
-width:300px;
-text-align:center;
-display:none;
-}
-
-.popup-btn{
-display:inline-block;
-margin-top:10px;
-padding:10px 18px;
-border-radius:6px;
-text-decoration:none;
-color:white;
-}
-
-.join-btn{
-background:#0088cc;
-}
-
-.close-btn{
-background:#444;
-margin-left:10px;
-cursor:pointer;
-}
-
-</style>
-
+        .video-title { color: #fff; font-size: 24px; margin-bottom: 10px; font-weight: 700; }
+        .video-meta { color: #888; font-size: 14px; margin-bottom: 20px; display: flex; justify-content: space-between; border-bottom: 1px solid #333; padding-bottom: 15px; }
+        .badge { background: #ff004c; color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; margin-right: 10px; }
+    </style>
 </head>
-
 <body>
 
-<!-- POPUNDER AD -->
-<script src="https://pl28905490.effectivegatecpm.com/cf/37/15/cf37151349f484321bc3e4dc16646d8d.js"></script>
+    <!-- 18+ Verification Modal -->
+    <div class="modal-overlay" id="ageModal">
+        <div class="modal-content">
+            <h2>AGE VERIFICATION</h2>
+            <p>This website contains explicit adult material. You must be at least 18 years old or the age of majority in your jurisdiction to enter.</p>
+            <button class="modal-btn" onclick="closeModal()">I AM 18 OR OLDER - ENTER</button>
+            <button class="modal-btn-leave" onclick="window.location.href='https://google.com'">I AM UNDER 18 - LEAVE</button>
+        </div>
+    </div>
 
-<!-- SOCIAL BAR AD -->
-<script src="https://pl28905520.effectivegatecpm.com/05/f3/48/05f3482683d39f522562f0f825c0bed8.js"></script>
+    <div class="header">
+        <h1>🔞 Premium Private Leaks</h1>
+    </div>
 
+    <!-- ========================================================================= -->
+    <!-- 🟢 2. TOP BANNER AD (468x60) 🟢 -->
+    <!-- ========================================================================= -->
+    <div class="ad-box ad-468x60">
+        <script>
+          atOptions = {
+            'key' : 'e40b838bd95142ca148f7a2095d26d56',
+            'format' : 'iframe',
+            'height' : 60,
+            'width' : 468,
+            'params' : {}
+          };
+        </script>
+        <script src="https://www.highperformanceformat.com/e40b838bd95142ca148f7a2095d26d56/invoke.js"></script>
+    </div>
 
-<div class="container">
+    <div class="container">
+        <!-- Main Content Area -->
+        <div class="main-content">
+            
+            <h2 class="video-title">Exclusive Private Tape - Full HD Uncensored</h2>
+            <div class="video-meta">
+                <span><span class="badge">1080p HD</span> <span class="badge" style="background: #e6a800;">PREMIUM</span></span>
+                <span>👁️ 2,451,890 Views | 👍 98%</span>
+            </div>
+            
+            <!-- Fake Video Player -->
+            <div class="video-player" id="videoPlayer">
+                <div class="play-btn" id="playBtnIcon"></div>
+            </div>
 
-<h1 class="title">🔥 Viral Video</h1>
+            <!-- Main Call To Action -->
+            <button class="watch-button" id="watchBtn">▶ WATCH FULL VIDEO NOW</button>
 
+            <!-- ========================================================================= -->
+            <!-- 🟢 3. BOTTOM NATIVE AD 🟢 -->
+            <!-- ========================================================================= -->
+            <div class="ad-box ad-native">
+                <script async="async" data-cfasync="false" src="https://pl28970063.profitablecpmratenetwork.com/4b4bf3b7a636c097e6b4bdef9a1ffdc5/invoke.js"></script>
+                <div id="container-4b4bf3b7a636c097e6b4bdef9a1ffdc5"></div>
+            </div>
+        </div>
 
-<!-- TOP BANNER AD -->
+        <!-- Sidebar Area -->
+        <div class="sidebar">
+            
+            <!-- ========================================================================= -->
+            <!-- 🟢 4. SIDEBAR BANNER 1 (300x250) 🟢 -->
+            <!-- ========================================================================= -->
+            <div class="ad-box ad-300x250">
+                <script>
+                  atOptions = {
+                    'key' : '9c41d05a9e1192b2aa9c9648133c26d9',
+                    'format' : 'iframe',
+                    'height' : 250,
+                    'width' : 300,
+                    'params' : {}
+                  };
+                </script>
+                <script src="https://www.highperformanceformat.com/9c41d05a9e1192b2aa9c9648133c26d9/invoke.js"></script>
+            </div>
 
-<div class="ad-box">
+            <!-- ========================================================================= -->
+            <!-- 🟢 5. SIDEBAR BANNER 2 (160x600) 🟢 -->
+            <!-- ========================================================================= -->
+            <div class="ad-box ad-160x600">
+                <script>
+                  atOptions = {
+                    'key' : '6d4161e6075b5c886454494ba80f9e29',
+                    'format' : 'iframe',
+                    'height' : 600,
+                    'width' : 160,
+                    'params' : {}
+                  };
+                </script>
+                <script src="https://www.highperformanceformat.com/6d4161e6075b5c886454494ba80f9e29/invoke.js"></script>
+            </div>
 
-<script>
-  atOptions = {
-    'key' : 'e40b838bd95142ca148f7a2095d26d56',
-    'format' : 'iframe',
-    'height' : 60,
-    'width' : 468,
-    'params' : {}
-  };
-</script>
-<script src="https://www.highperformanceformat.com/e40b838bd95142ca148f7a2095d26d56/invoke.js"></script>
+        </div>
+    </div>
 
-</div>
-
-
-
-<!-- VIDEO PLAYER -->
-
-<div class="video-wrapper">
-<div id="player"></div>
-</div>
-
-
-
-<!-- MOBILE BANNER -->
-
-<div class="ad-box">
-
-<script>
-  atOptions = {
-    'key' : '577194eeadf9123b54a94b332c7a55e1',
-    'format' : 'iframe',
-    'height' : 50,
-    'width' : 320,
-    'params' : {}
-  };
-</script>
-<script src="https://www.highperformanceformat.com/577194eeadf9123b54a94b332c7a55e1/invoke.js"></script>
-
-</div>
-
-
-
-<!-- BUTTONS -->
-
-<div class="buttons">
-
-<a class="btn telegram" href="https://t.me/viral_contentxpro" target="_blank">
-Watch on Telegram
-</a>
-
-<a class="btn more" href="https://wistahub.blogspot.com/?m=1">
-Watch More Videos
-</a>
-
-</div>
-
-</div>
-
-
-<script>
-
-/* VIDEO LINK */
-
-let videoLink = "https://xhamster45.desi/videos/brutal-x-eliza-ibarra-fucking-future-stepdaughter-13332383?utm_source=ext_shared&utm_medium=referral&utm_campaign=link";
-
-let embedLink = videoLink;
-
-if(videoLink.includes("youtube.com/watch?v=")){
-let id = videoLink.split("v=")[1].split("&")[0];
-embedLink="https://www.youtube.com/embed/"+id+"?rel=0&modestbranding=1";
-}
-
-if(videoLink.includes("youtu.be/")){
-let id = videoLink.split("youtu.be/")[1];
-embedLink="https://www.youtube.com/embed/"+id+"?rel=0&modestbranding=1";
-}
-
-document.getElementById("player").innerHTML =
-`<iframe src="${embedLink}" allowfullscreen allow="autoplay; fullscreen"></iframe>`;
-
-</script>
-
-
-
-<!-- TELEGRAM POPUP -->
-
-<div id="telegramPopup">
-
-<h3>Join our Telegram 🔥</h3>
-
-<p>Get more viral videos instantly.</p>
-
-<a class="popup-btn join-btn" href="https://t.me/viral_contentxpro" target="_blank">
-Join Now
-</a>
-
-<span class="popup-btn close-btn" onclick="closePopup()">
-Do Not Disturb
-</span>
-
-</div>
+    <!-- Logic Script -->
+    <script>
+        // =========================================================================
+        // 🔗 6. PASTE YOUR TELEGRAM VIDEO LINK HERE 🔗
+        // =========================================================================
+        const TELEGRAM_LINK = "https://t.me/viral_contentxpro/23"; 
 
 
+        // --- LOGIC: DO NOT EDIT BELOW UNLESS YOU KNOW JAVASCRIPT ---
+        
+        let isFirstClick = true;
+        const videoPlayer = document.getElementById('videoPlayer');
+        const watchBtn = document.getElementById('watchBtn');
+        const playBtnIcon = document.getElementById('playBtnIcon');
+        const ageModal = document.getElementById('ageModal');
 
-<script>
+        // Close 18+ Modal
+        function closeModal() {
+            ageModal.style.display = 'none';
+        }
 
-setTimeout(function(){
+        // Two-Click Guaranteed Earning Logic
+        function handleUserClick(e) {
+            if (isFirstClick) {
+                // FIRST CLICK: 
+                // We DON'T redirect. We just change the button.
+                // YOUR POPUNDER SCRIPT (in the <head>) WILL AUTOMATICALLY TRIGGER ON THIS CLICK.
+                e.preventDefault();
+                isFirstClick = false;
+                
+                // Change Button to Unlocked State
+                watchBtn.innerText = "▶ PLAY UNLOCKED VIDEO";
+                watchBtn.classList.add("unlocked");
+                
+                // Change Player Icon to Green
+                playBtnIcon.style.background = "rgba(0, 230, 118, 0.9)";
+                playBtnIcon.style.animation = "pulse-green 1.5s infinite";
+                
+                // Show a fake loading/buffering alert to keep them engaged
+                alert("Verifying connection... Ad opened. Please close the ad and click 'PLAY UNLOCKED VIDEO' to watch on Telegram!");
+            } else {
+                // SECOND CLICK:
+                // Now they have seen the Popunder ad. Send them to Telegram!
+                window.location.href = TELEGRAM_LINK;
+                
+                // Reset just in case they press the back button later
+                setTimeout(() => {
+                    isFirstClick = true; 
+                    watchBtn.innerText = "▶ WATCH FULL VIDEO NOW";
+                    watchBtn.classList.remove("unlocked");
+                    playBtnIcon.style.background = "rgba(255, 0, 76, 0.9)";
+                    playBtnIcon.style.animation = "pulse-red 1.5s infinite";
+                }, 1000);
+            }
+        }
 
-if(!sessionStorage.getItem("tgClosed")){
-document.getElementById("telegramPopup").style.display="block";
-}
-
-},5000);
-
-function closePopup(){
-document.getElementById("telegramPopup").style.display="none";
-sessionStorage.setItem("tgClosed","true");
-}
-
-</script>
-
-
+        // Attach logic to both the fake player and the big button
+        videoPlayer.addEventListener('click', handleUserClick);
+        watchBtn.addEventListener('click', handleUserClick);
+    </script>
 </body>
 </html>
